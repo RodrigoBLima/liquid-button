@@ -1,13 +1,8 @@
-import React from 'react';
-import './assets/styles/global.css'
+import React from "react";
+import Button from "./components/Button";
 
 function App() {
-  return (
-    <a href="#">
-      <span>Submit</span>
-      <div className="liquid"></div>
-    </a>
-  );
+  return <Button />;
 }
 
 export default App;
